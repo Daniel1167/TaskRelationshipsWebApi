@@ -126,3 +126,4 @@
 /home/daniel-visan/Documents/WebApiProjectsC#/C#ProjectApi/RelationshipEnitites/obj/Debug/net8.0/RelationshipEnitites.pdb
 /home/daniel-visan/Documents/WebApiProjectsC#/C#ProjectApi/RelationshipEnitites/obj/Debug/net8.0/RelationshipEnitites.genruntimeconfig.cache
 /home/daniel-visan/Documents/WebApiProjectsC#/C#ProjectApi/RelationshipEnitites/obj/Debug/net8.0/ref/RelationshipEnitites.dll
+/home/daniel-visan/Documents/WebApiProjectsC#/C#ProjectApi/RelationshipEnitites/obj/Debug/net8.0/RelationshipEnitites.sourcelink.json
