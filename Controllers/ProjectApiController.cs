@@ -9,21 +9,19 @@ namespace RelationshipEnitites.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TaskApiController : ControllerBase
+    public class ProjectApiController : ControllerBase
     {
-        private readonly DataContext dbContext;
-        public TaskApiController(DataContext dbContext)
+         private readonly DataContext dbContext;
+        public ProjectApiController(DataContext dbContext)
         {
             this.dbContext = dbContext;
         }
 
         [HttpGet]
-        public IActionResult GetAllTasks()
+        public IActionResult GetAllProjects()
         {
-            var allTasks = dbContext.Tasks.ToList();
-            return Ok(allTasks);
+            var allProjects = dbContext.Projects.ToList();
+            return Ok(allProjects);
         }
-
     }
-     
 }

@@ -9,21 +9,19 @@ namespace RelationshipEnitites.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TaskApiController : ControllerBase
+    public class CompanyApiController : ControllerBase
     {
-        private readonly DataContext dbContext;
-        public TaskApiController(DataContext dbContext)
+         private readonly DataContext dbContext;
+        public CompanyApiController(DataContext dbContext)
         {
             this.dbContext = dbContext;
         }
 
         [HttpGet]
-        public IActionResult GetAllTasks()
+        public IActionResult GetAllCompanies()
         {
-            var allTasks = dbContext.Tasks.ToList();
-            return Ok(allTasks);
+            var allCompanies = dbContext.Companies.ToList();
+            return Ok(allCompanies);
         }
-
     }
-     
 }
